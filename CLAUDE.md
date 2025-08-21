@@ -21,3 +21,18 @@ The project works with manufacturing and inventory data from several key files:
 - Database connection configured via `.env` file with `DATABASE_URL`
 - Connection string format: `postgresql://user:password@host/database`
 
+## Claude documentation
+
+The folder "claude-code-docs" contains the documentation for Claude code in .md files.
+
+## Shopify API documentation
+
+This folder contains the Shopify API documentation, formatted as html files.
+
+## Shopify API credentials
+
+The Shopify API credentials are in the .env file. The API key, secret and access token are stored there, along with the URL for Sentia Spirits' graphql API.
+
+## Shopify API scope
+
+This Shopify API integration has the following scopes: read_analytics, read_inventory, read_orders, read_products, read_reports. Tell me in chat if there are vital sub-processes that would be impossible without access to additional scopes.
